@@ -1,4 +1,4 @@
- 
+
  *{
     margin: 0;
     padding: 0;
@@ -292,6 +292,15 @@
     }
     .banner{
          margin-top: 1vw;
+    }
+    .sustain p{
+       display: none;
+        
+       
+    }
+    .imagetext p{
+        display: none;
+        transform: translateY(10%);
     }
   
 }
