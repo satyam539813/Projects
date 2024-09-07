@@ -1,4 +1,4 @@
-
+ 
  *{
     margin: 0;
     padding: 0;
@@ -201,10 +201,6 @@
     width: 50px;
     text-align: right;
 }
-.banner{
-    width: 100%;
-    margin-top: 8vw;
-}
 .bimg{
     width: 65%;
     height:50vh;
@@ -215,6 +211,8 @@
     object-fit: cover;
 }
 .banner{
+    width: 100%;
+    margin-top: 8vw;
     display:flex;
     align-items: center;
 }
@@ -270,4 +268,30 @@
     background-color: #fff;
     border: 1px solid red;
     color: #5e5e5e;
+}
+@media(max-width:600px){
+    .hero {
+         flex-direction: column-reverse;
+    }
+    .visit {
+        position: relative;
+        transform:translate(90%)rotate(90deg);
+        transform: translate(18vw,19vw)rotate(90deg);
+    }
+    .pictures{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .future{
+      height: 0%;
+    }
+    .picimg{
+        display: flex;
+    }
+    .banner{
+         margin-top: 1vw;
+    }
+  
 }
